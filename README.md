@@ -2,7 +2,7 @@
   align="center">LINUX <!-- <img src="https://media.giphy.com/media/BXVRf5GyMlElO/giphy.gif" width="25"/> -->
 </h1>
 <h3 
-  align="center">A collection of linux related things from command manual to solutions to particular errors.
+  align="center">A collection of linux commands and their information from flags to the authors.
 </h3>
 
 <div align="center">
