@@ -1,56 +1,50 @@
-# Command
-ifconfig
+# ifconfig
+Interface configuration
 
 ---
 
 ## Description
-Short description about the command.
+Ifconfig is used to configure the kernel-resident network interfaces. It is used at boot time to set up interfaces as necessary. After that, it is usually only needed when debugging or when system tuning is needed.
 
 ---
 
 ## Syntax
 ```bash
-syntax of command
+ifconfig -AaC interface address_family address dest_address parameters
 ```
 
 ---
 
 ## Options/Flags
-- ###  Option no. 1 and it's use.
+- ###  View network settings of an Ethernet adapter
     ```bash
-    $ syntax
+    $ ifconfig eth0
     ```
-- ### Option no. 2 and it's use.
+- ### Display details of all interfaces, including disabled interfaces
     ```bash
-    $ syntax
+    $ ifconfig -a
     ```
-- ### Option no. 3 and it's use.
+- ### Disable eth0 interface
     ```bash
-    $ syntax
+    $ ifconfig eth0 down
     ```
-  .
-  .
-  .
+- ### Enable eth0 interface
+    ```bash
+    $ ifconfig eth0 up
+    ```
+- ### Assign IP address to eth0 interface
+    ```bash
+    $ ifconfig eth0 [ip_address]
+    ```
 
----
 
-## Exit Status
-- **x** = Meaning
-- **y** = Meaning
 ---
 
 ## Author
-- first_name middle_name last_name
-- first_name last_name.
+- Fred N. van Kempen
+- Alan Cox
+- Phil Blundell
+- Bernd Eckenfels
+- Andi Kleen
 
 ---
-
-## Copyright
-Copyright if available.
-
----
-> **_NOTE:_** For an example click [here](https://github.com/Walchand-Linux-Users-Group/linux/blob/main/commands/ls/README.md).
-> Few fields are not necessary such as:
-> - Author
-> - Copyright
-> - Exit Status
