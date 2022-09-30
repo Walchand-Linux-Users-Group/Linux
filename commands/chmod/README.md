@@ -20,19 +20,19 @@ $ ls -l
 ```
 ### After ls -l output is:
 <div align="center">
-  <img src="https://github.com/ankurdg107/linux/blob/main/assets/chmodpic1.png" align="center" />
+  <img src="https://github.com/Walchand-Linux-Users-Group/linux/blob/main/assets/chmodpic1.png" align="center" />
 </div>
 <br/>
 <br/>
 <div align="center">
-  <img src="https://github.com/ankurdg107/linux/blob/main/assets/chmodpic3.png" align="center" height="90" width="250" />
+  <img src="https://github.com/Walchand-Linux-Users-Group/linux/blob/main/assets/chmodpic3.png" align="center" height="90" width="250" />
 </div>
 
 Here first positon represent object's type: - for a file, d for a directory, and l for a symbolic link.
 The next nine positions are grouped in threes and represents the permission mode.
 
 <div align="center">
-  <img src="https://github.com/ankurdg107/linux/blob/main/assets/chmodcommands2.png" align="center" />
+  <img src="https://github.com/Walchand-Linux-Users-Group/linux/blob/main/assets/chmodcommands2.png" align="center" />
 </div>
 
 ---
