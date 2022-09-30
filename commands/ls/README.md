@@ -6,7 +6,7 @@ list storage
 ## Description
 List information about the FILE(s) of the current directory.
 It sorts the files alphabetically if tags are not specified.
-
+Aliases an be used.
 ---
 
 ## Syntax
