@@ -45,7 +45,7 @@ cd [directory]
 
 ## Exit Status
 - **0** = OK
-- **1** = Error
+- **>0** = Error
 ---
 
 ## Author
