@@ -1,72 +1,73 @@
 # rm
-remove files or directories
+rm
 
+    removes file or directories.
 ---
 
 ## Description
-By default, it does not remove directories.
-
-       If the -I or --interactive=once option is given, and there are more than three  files
-       or the -r, -R, or --recursive are given, then rm prompts the user for whether to pro‐
-       ceed with the entire operation.  If the response is not affirmative, the entire  com‐
-       mand is aborted.
-
-       Otherwise,  if  a  file  is  unwritable,  standard input is a terminal, and the -f or
-       --force option is not given, or the -i or --interactive=always option  is  given,  rm
-       prompts the user for whether to remove the file.  If the response is not affirmative,
-       the file is skipped.
+    removes the file and directory.
+    rm removes each specified file.  By default, it does not re‐move directories.
+    This is used for perticularly removing a file.
 
 ---
 
 ## Syntax
 ```bash
-rm [OPTION]... [FILE]...
+    $ rm [OPTION]... [FILE]...
 ```
+
 ---
 
 ## Options/Flags
-- ###  ignore nonexistent files and arguments, never prompt.
+There are alot of options are available.
+- ### -f, --force
     ```bash
-    $ rm -f, --force
+    $ rm -f or rm --force
     ```
-- ### prompt before every removal.
+- ### -i --> prompt before every removal
     ```bash
     $ rm -i
     ```
-- ### remove directories and their contents recursively.
+- ### -I 
+    prompt once before removing more than three files, or  when  re‐moving  recursively;  less intrusive than -i, while still giving protection against most mistakes
     ```bash
-    $ rm -r, -R, --recursive
+    $ rm -I
     ```
-- ### remove empty directories.
+- ### --interactive
+    prompt according to WHEN: never,  once  (-I),  or  always  (-i);
+    without WHEN, prompt always
     ```bash
-    $ rm -d, --dir
+    $ rm --interactive
     ```
-- ### explain what is being done.
+- ### --one-file-system
+    when  removing  a hierarchy recursively, skip any directory that is on a file system different from  that  of  the  corresponding command line argument.
+
+- ### --no-preserve-root
+    do not remove '/' (default); with 'all', reject any command line argument on a separate device from its parent.
+    **It do not treat '/' specially**
+     ```bash
+     $ rm --no-preserve-root
+     ```
+- ### -r, -R, --recursive
+    remove directories and their contents recursively
     ```bash
-    $ rm -v, --verbose
-    ```
-- ### To remove a file whose name starts with a '-', for example '-foo', use one  of  these commands:
+     $ rm -r
+     $ rm -R
+     $ rm --recursive 
+     ```
+- ### -d, --dir
+    remove empty directories
     ```bash
-    $ rm -- -foo
-    $ rm ./-foo
+    $ rm -d
+    $ rm --dir
+    ``` 
+- ### -v, --verbose
+    explain what is being done
+    ```bash
+    $ rm -v
+    $ rm -verbose
     ```
+- ### --help
+    display this help and exit
 ---
 
-## Reporting Bugs
-GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
-Report any translation bugs to <https://translationproject.org/team/>
----
-
-## Author
-- Richard M. Stallman.
-- David MacKenzie.
-- Paul Rubin.
-- Jim Meyering.
-
----
-
-## Copyright
-Copyright © 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or
-       later <https://gnu.org/licenses/gpl.html>.
-       This is free software: you are free to change and redistribute it.  There is NO  WAR‐
-       RANTY, to the extent permitted by law.
