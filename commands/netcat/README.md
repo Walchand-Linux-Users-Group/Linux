@@ -1,5 +1,5 @@
-# Command
-netcat
+# netcat
+Network Utility
 
 ---
 
