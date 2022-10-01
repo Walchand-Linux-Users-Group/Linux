@@ -4,7 +4,7 @@ nautilus
 ---
 
 ## Description
-Nautilus is the official file manager for the Gnome desktop environment.
+Nautilus is the official file manager for the GNOME desktop environment.
 The default file manager in Ubuntu is Nautilus.
  
 ---
@@ -21,9 +21,13 @@ nautilus
     ```bash
     $ nautilus
     ```
-- ### Opens the file manager with specific root privileges. Helps us to file handling in root directories.
+- ### Opens the file manager with root privileges. Helps us to file handling in root directories.
     ```bash
     $ sudo nautilus
+    ```
+- ### Opens the inserted path with root privileges.
+    ```bash
+    $ sudo nautilus path/of/directory
     ```
   .
   .
