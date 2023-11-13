@@ -6,7 +6,7 @@ Open a file in the terminal.
 
 ## Description
 - It is used to print the content of a file onto the standard output stream.
-- It is also allows us to write some texts into a file.
+- It also allows us to write some texts into a file.
 
 ---
 
