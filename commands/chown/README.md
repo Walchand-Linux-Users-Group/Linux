@@ -1,22 +1,22 @@
 # chown
-change the ownership of the file
+Change the ownership of the file.
 
 ---
 
 
 ## Description
-Used to change the ownership of files and directories, allowing the assignment of new owners and groups
+Used to change the ownership of files and directories, allowing the assignment of new owners and groups.
 
 ---
 
 
 ## File Ownership
-Each file has an owner (a user) and a group associated with it
-The owner is usually the user who created the file, and the group may include multiple users 
-File ownership is crucial for determining who can access or modify a file
+- Each file has an owner (a user) and a group associated with it.
+- The owner is usually the user who created the file, and the group may include multiple users.
+- File ownership is crucial for determining who can access or modify a file.
 
 
-### To get ownership of all the files and folders in directory:
+### To view ownership of all the files and folders in the directory use the command:
 ```bash
 $ ls -l
 ```
@@ -43,9 +43,9 @@ chown [options] new_owner[:new_group] file(s)
     $ chown -v owner_name file1.txt
     ```
 - ###  -f
-    When you are not permitted to change group permissions and shows error, this option forcefully/silently changes the ownership.
+    When you are not permitted to change group permissions and an error occurs, this option forcefully/silently changes the ownership.
     ```bash
-    $ chown –f owner_name file.txt
+    $ chown -f owner_name file.txt
     ```
 - ###  --from=user:group
     Change the ownership only if the file is currently owned by the specified user and group.
@@ -76,5 +76,5 @@ chown [options] new_owner[:new_group] file(s)
 
 
 ## Copyright
-Copyright © 2022 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later.
+Copyright © 2022 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later. <br/>
 This is free software, you are free to change and redistribute the information. There is NO WARRANTY, to the extent permitted by law.
