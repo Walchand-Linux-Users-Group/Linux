@@ -1,5 +1,7 @@
 # curl
-Transfer data with URLs
+
+Transfer data with URLs.
+
 ---
 
 
@@ -20,7 +22,7 @@ curl [options] [URL...]
 
 ## Options/Flags
 - ###  -o
-    saves the downloaded file on the local machine with the name provided in the parameters. 
+    Saves the downloaded file on the local machine with the name provided in the parameters. 
     ```bash
     $ curl -o [file_name] [URL...]
     ```
@@ -35,7 +37,7 @@ curl [options] [URL...]
     $ curl --limit-rate [value] [URL...]
     ```
 - ###  -u
-     curl also provides options to download files from user authenticated FTP servers. 
+     curl also provides options to download files from user-authenticated FTP servers. 
     ```bash
     $ curl -u {username}:{password} [FTP_URL]
     ```
@@ -54,21 +56,23 @@ curl [options] [URL...]
 
 
 ## Exit Status
--**0**: Successful operation.
--**1**: Unsupported protocol.
--**2**: Failed initialization.
--**3**: URL malformed.
--**4**: URL access denied.
--**5**: Couldn't resolve proxy.
--**6**: Couldn't resolve host.
--**7**: Failed to connect to host.
--**8**: FTP weird server reply.
--**9**: FTP access denied.
--**22**: HTTP page not retrieved.
--**26**: Read error.
--**27**: Out of memory.
--**28**: Operation timeout.
--**35**: SSL connect error.
+
+- **0**: Successful operation
+- **1**: Unsupported protocol
+- **2**: Failed initialization
+- **3**: URL malformed
+- **4**: URL access denied
+- **5**: Couldn't resolve proxy
+- **6**: Couldn't resolve host
+- **7**: Failed to connect to host
+- **8**: FTP weird server reply
+- **9**: FTP access denied
+- **22**: HTTP page not retrieved
+- **26**: Read error
+- **27**: Out of memory
+- **28**: Operation timeout
+- **35**: SSL connect error
+
 ---
 
 
@@ -78,5 +82,5 @@ curl [options] [URL...]
 
 
 ## Copyright
-Copyright © 2022 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later.
+Copyright © 2022 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later.<br/>
 This is free software, you are free to change and redistribute the information. There is NO WARRANTY, to the extent permitted by law.
