@@ -1,6 +1,5 @@
 # whoami
 print effective user name
-
 ---
 
 ## Description
