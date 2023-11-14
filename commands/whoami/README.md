@@ -1,5 +1,5 @@
 # whoami
- print effective user name
+ Print effective user name
 
 ---
 
