@@ -16,7 +16,7 @@ $ rmdir [option] [directory]
 ---
 
 ## Options/Flags
-- ### --ignore-fail-on-non-empty:
+- ### --ignore-fail-on-non-empty
   #### Ignore each failure that is solely because a directory is non-empty.
     ```bash
     $ rmdir --ignore-fail-on-non-empty [directory_name]
