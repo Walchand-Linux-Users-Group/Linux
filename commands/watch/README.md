@@ -9,7 +9,7 @@ By default, the specified command will run every 2 seconds and watch will run un
 
 ---
 
-## Syntax
+## watch [option] [command]
 ```bash
 $ watch [option] [command]
 ```
@@ -19,51 +19,51 @@ $ watch [option] [command]
 ## Options/Flags
 - ###  -n: Allows you to specify the interval between output updates.
     ```bash
-    $ syntax
+    $ watch -n [command]
     ```
 - ### -d: Highlights the differences between output updates.
     ```bash
-    $ syntax
+    $ watch -d [command]
     ```
 - ### -g: Exits the watch command when the output of the user-defined command changes.
     ```bash
-    $ syntax
+    $ watch -g [command]
     ```
 - ### -t: Removes the header showing the interval, command, and current time and date.
     ```bash
-    $ syntax
+    $ watch -t [command]
     ```
 - ### -b: Plays a sound alert (beep) if the command exits with an error.
     ```bash
-    $ syntax
+    $ watch - [command]
     ```
 - ### -p: Attempts to run the command after the exact number of seconds defined by the --interval option.
     ```bash
-    $ syntax
+    $ watch -p [command]
     ```
 - ### -e: Stops output updates on error and exits the command after a key press.
     ```bash
-    $ syntax
+    $ watch -e [command]
     ```
 - ### -c: Interprets ANSI color and style sequences.
     ```bash
-    $ syntax
+    $ watch -c [command]
     ```
 - ### -x: Passes the user-defined command to exec, reducing the need for extra quoting.
     ```bash
-    $ syntax
+    $ watch -x [command]
     ```
 - ### -w: Turns off line wrapping and truncates long lines instead.
     ```bash
-    $ syntax
+    $ watch -w [command]
     ```
 - ### -h: Displays help text and exits.
     ```bash
-    $ syntax
+    $ watch -h [command]
     ```
 - ### -v: Displays version information and exits.
     ```bash
-    $ syntax
+    $ watch -v [command]
     ```   
   .
   .
