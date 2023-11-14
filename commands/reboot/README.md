@@ -12,9 +12,11 @@ Halt, poweroff, reboot may be used to halt, power-off, or reboot the machine. Al
 ```bash
 reboot [options]
 ```
+or
 ```bash
 halt [options]
 ```
+or
 ```bash
 poweroff [options]
 ```
