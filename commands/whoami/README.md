@@ -1,5 +1,6 @@
 # whoami
-Print efffective user name
+print effective user name
+
 ---
 
 ## Description
