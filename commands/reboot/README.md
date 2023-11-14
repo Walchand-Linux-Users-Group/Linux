@@ -1,30 +1,31 @@
 # reboot
-Reboot the system. 
+Reboot, halt, or power-off the system.
 
 ---
 
 ## Description
-Halt, poweroff, reboot may be used to halt, power-off, or reboot the machine. All three commands take the same options
+`reboot`, `halt`, and `poweroff` are commands used to initiate a system reboot, halt, or power-off. All three commands may take the same options.
 
 ---
 
 ## Syntax
 ```bash
-reboot [options]
+$ reboot [options]
 ```
 or
 ```bash
-halt [options]
+$ halt [options]
 ```
 or
 ```bash
-poweroff [options]
+$ poweroff [options]
 ```
 
 ---
 
 ## Options/Flags
-- ###  --help : Print a short help text and exit.
+- ###  --help:
+  #### Print a short help text and exit.
     ```bash
     $ reboot --help
     ```
@@ -36,7 +37,8 @@ poweroff [options]
     ```bash
     $ poweroff --help
     ```
-- ### --halt : Halt the machine, regardless of which one of the three commands is invoked.
+- ### --halt:
+  #### Halt the machine, regardless of which one of the three commands is invoked.
     ```bash
     $ reboot --halt
     ```
@@ -48,7 +50,8 @@ poweroff [options]
     ```bash
     $ poweroff --halt
     ```
-- ### -p, --poweroff : Power-off the machine, when either halt or poweroff is invoked.This option is ignored when reboot is invoked.
+- ### -p, --poweroff:
+  #### Power-off the machine, when either `halt` or `poweroff` is invoked. This option is ignored when reboot is invoked.
     ```bash
     $ halt -p
     ```
@@ -56,7 +59,8 @@ poweroff [options]
     ```bash
     $ poweroff
     ```
-- ### --reboot : Reboot the machine, regardless of which one of the three commands is invoked.
+- ### --reboot:
+  #### Reboot the machine, regardless of which one of the three commands is invoked.
     ```bash
     $ reboot
     ```
@@ -67,7 +71,8 @@ poweroff [options]
     or
     ```bash
     $ poweroff --reboot
-- ### -f, --force :  Force immediate halt, power-off, reboot.
+- ### -f, --force:
+  #### Force immediate halt, power-off, reboot.
     ```bash
     $ reboot -f
     ```
@@ -78,7 +83,8 @@ poweroff [options]
 
     ```bash
     $ poweroff -f
-- ### -w, --wtmp-only : Only write wtmp shutdown entry, do not actually halt, power-off, reboot.
+- ### -w, --wtmp-only:
+  #### Only write wtmp shutdown entry, do not actually halt, power-off, reboot.
     ```bash
     $ reboot -w
     ```
@@ -90,7 +96,8 @@ poweroff [options]
     ```bash
     $ poweroff -w
     ```
-- ### -d, --no-wtmp :  Do not write wtmp shutdown entry.
+- ### -d, --no-wtmp:
+  #### Do not write wtmp shutdown entry.
     ```bash
     $ reboot -d
     ```
@@ -102,7 +109,8 @@ poweroff [options]
     ```bash
     $ poweroff -d
     ```
-- ### -n, --no-sync : Don't sync hard disks/storage media before halt, power-off, reboot.
+- ### -n, --no-sync:
+  #### Don't sync hard disks/storage media before halt, power-off, reboot.
     ```bash
     $ reboot -n
     ```
@@ -114,7 +122,8 @@ poweroff [options]
     ```bash
     $ poweroff -n
     ```
-- ### --no-wall : Do not send wall message before halt, power-off, reboot.
+- ### --no-wall:
+  #### Do not send wall message before halt, power-off, or reboot.
     ```bash
     $ reboot --no-wall
     ```
