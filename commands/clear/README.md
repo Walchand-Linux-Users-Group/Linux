@@ -1,56 +1,31 @@
 # clear
-Command name
+Clear the terminal screen
 
 ---
 
 ## Description
-Short description about the command.
+`clear` clears your terminal's screen including the terminal's scrollback buffer.
 
 ---
 
 ## Syntax
 ```bash
-syntax of command
+clear [-T] [-V] [-x]
 ```
 
 ---
 
 ## Options/Flags
-- ###  Option no. 1 and it's use.
+- ### -V:
+  #### Reports the version of ncurses which was used in this program, and exits.
     ```bash
-    $ syntax
+    $ clear -V
     ```
-- ### Option no. 2 and it's use.
+- ### -x:
+  #### Do not attempt to clear the terminal's scrollback buffer using the extended “E3” capability.
     ```bash
-    $ syntax
+    $ clear -x
     ```
-- ### Option no. 3 and it's use.
-    ```bash
-    $ syntax
-    ```
-  .
-  .
-  .
 
 ---
 
-## Exit Status
-- **x** = Meaning
-- **y** = Meaning
----
-
-## Author
-- first_name middle_name last_name
-- first_name last_name.
-
----
-
-## Copyright
-Copyright if available.
-
----
-> **_NOTE:_** For an example click [here](https://github.com/Walchand-Linux-Users-Group/linux/blob/main/commands/ls/README.md).
-> Few fields are not necessary such as:
-> - Author
-> - Copyright
-> - Exit Status
