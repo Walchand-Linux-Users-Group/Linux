@@ -10,7 +10,7 @@ Locate a command.
 
 ## Syntax
 ```bash
-$ which [-a] filename...
+\$ which [-a] filename...
 ```
 
 ---
