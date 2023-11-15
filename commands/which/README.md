@@ -9,12 +9,9 @@ Locate a command.
 ---
 
 ## Syntax
-
-<pre>
-<code>
+```bash
 $ which [-a] filename...
-</code>
-</pre>
+```
 
 ---
 
