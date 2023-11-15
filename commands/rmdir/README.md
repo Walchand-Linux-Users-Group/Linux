@@ -1,5 +1,5 @@
 # rmdir
-Remove empty directories
+Remove empty directories.
 
 ---
 
@@ -44,6 +44,13 @@ $ rmdir [option] [directory]
 
 ---
 
+## Exit Status
+- **0** = The command executed successfully and all requested changes were made.
+- **1** = An error occurred or the directory was not empty (if --ignore-fail-on-non-empty is not used).
+
+---
+
+
 ## Author
 - Ken Thompson
 - Dennis Ritchie
@@ -51,6 +58,10 @@ $ rmdir [option] [directory]
 ---
 
 ## Copyright
-Copyright © 2022 Free Software Foundation, Inc.   License GPLv3+: GNU GPL version 3 or later        <https://gnu.org/licenses/gpl.html>.                                             This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the  extent permitted by law.
+Copyright © 2022 Free Software Foundation, Inc. <br/>
+License GPLv3+: GNU GPL version 3 or later. <br/>
+https://gnu.org/licenses/gpl.html <br/>
+This is free software: you are free to change and redistribute it. <br/>
+There is NO WARRANTY, to the extent permitted by law. <br/>
 
 ---
