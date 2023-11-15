@@ -10,7 +10,7 @@ Clear the terminal screen
 
 ## Syntax
 ```bash
-clear [-V] [-x]
+$ clear [-V] [-x]
 ```
 
 ---
