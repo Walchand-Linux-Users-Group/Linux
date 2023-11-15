@@ -19,13 +19,13 @@ Which command in Linux is a command which is used to locate the executable file 
 
 ## Options/Flags
 
-### -a
+- ### -a
 Used to display all the occurrences of the file.
 ```bash
 which -a [filename]
 ```
 
-### -v
+- ### -v
 Used to display more verbose output.
 ```bash
 which -v [command]
