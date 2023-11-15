@@ -1,5 +1,5 @@
 # clear
-Clear the terminal screen
+Clear the terminal screen.
 
 ---
 
@@ -10,22 +10,29 @@ Clear the terminal screen
 
 ## Syntax
 ```bash
-$ clear [-V] [-x]
+$ clear [options]
 ```
 
 ---
 
 ## Options/Flags
 - ### -V:
-  #### Reports the version of ncurses which was used in this program, and exits.
+  Reports the version of ncurses used in this program and exits.
     ```bash
     $ clear -V
     ```
 - ### -x:
-  #### Do not attempt to clear the terminal's scrollback buffer using the extended “E3” capability.
+  Do not attempt to clear the terminal's scrollback buffer using the extended “E3” capability.
     ```bash
     $ clear -x
     ```
 
 ---
+
+## Exit Status
+- **0**: The command executed successfully.
+- **Non-zero:** = An error occurred.
+
+---
+
 
