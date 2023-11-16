@@ -91,8 +91,7 @@ Network statistics
 ---
 
 ## Author
--  Fred Baumgarten
--  Matt Welsh
+-  Michael Kerrisk
 
 ---
 
