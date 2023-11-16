@@ -10,33 +10,29 @@ tail
 
 ## Syntax
 ```bash
-tail [options] [file(s)]
+$ tail [options] [file(s)]
 ```
 
 ---
 
 ## Options/Flags
-- -n, --lines=[+]NUM
+- ### -n, --lines=[+]NUM
+   Output  the  last  NUM  lines,  instead  of  the  last 10; or use -n +NUM to output starting with line NUM.
     ```bash
     $  tail -n 10 filename
     ```
-    output  the  last  NUM  lines,  instead  of  the  last 10; or use -n +NUM to output starting with line NUM
-
--   -c, --bytes=[+]NUM
+  
+- ### -c, --bytes=[+]NUM
+  Output the last NUM bytes; or use -c +NUM to output starting with byte NUM of  each file.
     ```bash
     $  tail -c 20 filename
     ```
-     output the last NUM bytes; or use -c +NUM to output starting with byte NUM of  each file
-
--  -f, --follow[={name|descriptor}]
+     
+-  ### -f, --follow[={name|descriptor}]
+    Output appended data as the file grows, Absent option argument means 'descriptor'.
     ```bash
     $ tail -f filename
     ```
-      output appended data as the file grows;
-      an absent option argument means 'descriptor'
-  .
-  .
-  .
 
 ---
 
@@ -48,10 +44,8 @@ tail [options] [file(s)]
 ---
 
 ## Copyright
-       Copyright  ©  2022  Free  Software  Foundation, Inc.  License GPLv3+: GNU GPL version 3 or
-       later <https://gnu.org/licenses/gpl.html>.
-       This is free software: you are free to change and redistribute it.  There is NO  WARRANTY,
-       to the extent permitted by law.
+Copyright  ©  2022  Free  Software  Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>. <br/>
+This is free software: you are free to change and redistribute it.  There is NO  WARRANTY, to the extent permitted by law.
 
 
 ---
