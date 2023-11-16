@@ -4,39 +4,35 @@ head
 ---
 
 ## Description
-Print  the  first  10  lines  of  each  FILE to standard output.  With more than one FILE,precede each with a header giving the file name.
+Print  the  first  10  lines  of  each  FILE to standard output.  With more than one FILE, precede each with a header giving the file name.
 
 ---
 
 ## Syntax
 ```bash
- head [OPTION]... [FILE]...
+$ head [OPTION]... [FILE]...
 ```
 
 ---
 
 ## Options/Flags
-- -n, --lines=[-]NUM 
+- ### -n, --lines=[-]NUM
+   Print the first NUM lines instead of the first 10; with the leading '-', print all but the last NUM lines of each file.
     ```bash
     $ head -n 10 filename
     ```
-     print  the first NUM lines instead of the first 10; with the leading '-', print all but the last NUM lines of each file
 
-- -c, --bytes=[-]NUM
+- ### -c, --bytes=[-]NUM
+  print the first NUM bytes of each file; with the leading '-',  print  all  but  the last NUM bytes of each file.
     ```bash
     $ head -c 20 filename
     ```
-    print the first NUM bytes of each file; with the leading '-',  print  all  but  the last NUM bytes of each file
--
- -q, --quiet, --silent
+    
+- ### -q, --quiet, --silent
+  Never print headers giving file names.
     ```bash
     $  head -q file1 file2
     ```
-    never print headers giving file names
-  .
-  .
-  .
-
 ---
 
 ## Author
