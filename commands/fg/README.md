@@ -1,6 +1,6 @@
-# fg
+# Command
 
-foreground
+fg
 
 ---
 
@@ -11,18 +11,18 @@ foreground
 
 ## Syntax
 ```bash
-    $ fg [jobID]
+$ fg [jobID]
 ```
 
 ---
 
 ## The jobID can be
-- PID (process id)
-- %Number -> Refers to a job by the job number.
-- %String -> Refers to a job whose name begins with the specified string.
-- %?String -> Refers to a job whose name contains the specified string.
-- %+ OR %% -> Refers to the current job.
-- %- -> Refers to the previous job.
+- **PID** (process id)
+- **%Number** -> Refers to a job by the job number.
+- **%String** -> Refers to a job whose name begins with the specified string.
+- **%?String** -> Refers to a job whose name contains the specified string.
+- **%+** OR **%%** -> Refers to the current job.
+- **%-** -> Refers to the previous job.
 
 ---
 
@@ -51,11 +51,6 @@ foreground
 ## Exit status
 - **0** -> Successful completion.
 - **>0** -> An error occurred.
----
-
-## Author
--  Unknown
-
 ---
 
 ## Copyright
