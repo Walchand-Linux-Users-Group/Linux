@@ -36,8 +36,13 @@ lpr [OPTIONS] [FILE]...
 - ### -#: 
    Sets the number of copies that you want to print.
     ```bash
-    $ lpr -#3 myfile.txt  
+    $ lpr -# 3 myfile.txt  
     ```   
+- ### -o page-ranges:
+  Prints only specific pages, in this example, pages 1 to 3 and page 7.
+    ```bash
+    $ lpr -o page-ranges=1-3,7 
+    ```
 ---
 
 ## Exit Status 

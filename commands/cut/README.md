@@ -30,17 +30,17 @@ cut [OPTION]... [FILE]...
   It uses a special form for selecting bytes from beginning upto the end of the line:  
   In this, 1- indicate from 1st byte to end byte of a line.
     ```bash
-    $ cut -b 1- state.txt 
+    $ cut -b 1- myfile.txt 
     ```
   In this, -3 indicate from 1st byte to 3rd byte of a line.
     ```bash
-    $ cut -b -3 state.txt 
+    $ cut -b -3 myfile.txt 
     ```
 - ### -c: 
   To cut by character use the -c option
   List without ranges:
     ```bash
-    $ cut -c 2,5,7 state.txt 
+    $ cut -c 2,5,7 myfile.txt 
     ```
   List with ranges:
     ```bash
@@ -49,11 +49,16 @@ cut [OPTION]... [FILE]...
   Cut uses a special form for selecting characters from beginning upto the end of the line:
   In this, 1- indicate from 1st character to end character of a line.
     ```bash
-    $ cut -c 1- state.txt
+    $ cut -c 1- myfile.txt
     ```
   In this, -5 indicate from 1st character to 5th character of a line:
     ```bash
-    $ cut -b -5 state.txt 
+    $ cut -b -5 myfile.txt 
+    ```
+- ### -f: 
+  Used for fixed-length lines.
+    ```bash
+    $ cut -f 1 myfile.txt
     ```
 ---
 
@@ -62,4 +67,3 @@ cut [OPTION]... [FILE]...
 - **non-zero value** = Error Occurrence
 
 ---
-uu
