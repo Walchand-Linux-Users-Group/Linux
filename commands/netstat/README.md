@@ -1,17 +1,18 @@
-# netstat
+# Command
 
-Network statistics
+netstat
 
 ---
 
 ## Description
-- Netstat command displays various network related information such as network connections, routing tables, interface statistics, etc.
+- Network statistics.
+- Netstat command displays various network-related information such as network connections, routing tables, interface statistics, etc.
 
 ---
 
 ## Syntax
 ```bash
-    $ netstat
+$ netstat
 ```
 
 ---
