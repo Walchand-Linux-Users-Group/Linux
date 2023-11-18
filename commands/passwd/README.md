@@ -1,18 +1,18 @@
-# passwd
+# Command
 
-Password
+passwd
 
 ---
 
 ## Description
-- passwd command in Linux is used to change the user account passwords.
+- `passwd` command in Linux is used to change the user account passwords.
 - The root user reserves the privilege to change the password for any user on the system, while a normal user can only change the account password for his or her own account.
 
 ---
 
 ## Syntax
 ```bash
-    $ passwd [options] [username] 
+$ passwd [options] [username] 
 ```
 
 ---
@@ -24,7 +24,7 @@ Password
     $ passwd -d
     ```
 - ### -e, --expire
-    Immediately expires the account password and forces the user to change password on their next login.
+    Immediately expires the account password and forces the user to change the password on their next login.
     ```bash
     $ passwd -e
     ```
@@ -55,7 +55,7 @@ Password
     $ passwd -q 
     ```
 - ### -S
-    - Shows the password status (7 fields) of user in the following format:
+    - Shows the password status (7 fields) of a user in the following format:
         ```bash
         $ pratiksha P 11/16/2023 0 99999 7 -1
         ```
