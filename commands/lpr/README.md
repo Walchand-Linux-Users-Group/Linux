@@ -1,5 +1,5 @@
-# lpr
-Line Printer Remote/Line Printer Deamon
+# Command
+lpr : Line Printer Remote/Line Printer Deamon
 
 ---
 

@@ -1,5 +1,5 @@
-# lpq
-Line Printer Queue
+# Command
+lpq : Line Printer Queue
 ---
 
 ## Description

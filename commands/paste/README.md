@@ -1,5 +1,6 @@
-# paste
-Paste 
+# Command
+paste 
+
 ---
 
 ## Description

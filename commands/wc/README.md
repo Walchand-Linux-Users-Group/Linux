@@ -1,5 +1,5 @@
-# wc
-Word Count
+# Command
+wc : Word Count
 
 ---
 

@@ -1,4 +1,4 @@
-# cut
+# Command
 cut
 
 ---

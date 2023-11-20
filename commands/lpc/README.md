@@ -1,5 +1,5 @@
-# lpc
-Line Printer Control
+# Command
+lpc : Line Printer Control
 ---
 
 ## Description

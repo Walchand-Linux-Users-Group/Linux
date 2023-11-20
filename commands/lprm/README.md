@@ -1,5 +1,6 @@
-# lprm
-Line Printer Remove
+# Command
+lprm : Line Printer Remove
+
 ---
 
 ## Description
