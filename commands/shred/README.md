@@ -12,7 +12,7 @@ Mandatory arguments to long options are mandatory for short options too.
 
 ## Syntax
 ```bash
-shred [OPTION]... FILE...
+$ shred [OPTION]... FILE...
 ```
 ---
 
