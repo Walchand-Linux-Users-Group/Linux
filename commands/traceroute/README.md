@@ -1,11 +1,12 @@
-# traceroute
+# command
+traceroute
 
-traceroute command in Linux prints the route that a packet takes to reach the host.
 
 ---
 
 
 ## Description
+ Traceroute command in Linux prints the route that a packet takes to reach the host.
  This command is useful when you want to know about the route and about all the hops that a packet takes. Below image depicts how traceroute command is used to reach the Google(172.217.26.206) host from the local machine and it also prints detail about all the hops that it visits in between.
 ---
 

@@ -1,12 +1,11 @@
-# cpio
-
-cpio stands for "copy in, copy out".
+# command
+cpio
 
 ---
 
 
 ## Description
-It is a command-line utility in Linux/UNIX for creating, listing and extracting archive files. It creates a .cpio archive file.It can copy the complete file system to an archive file
+cpio stands for "copy in, copy out".It is a command-line utility in Linux/UNIX for creating, listing and extracting archive files. It creates a .cpio archive file.It can copy the complete file system to an archive file
 ---
 
 ## Modes

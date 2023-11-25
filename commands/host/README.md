@@ -1,12 +1,12 @@
-# host
+# command
+host
 
-Host command in Linux system is used for DNS (Domain Name System) lookup operations
 
 ---
 
 
 ## Description
- This command is used to find the IP address of a particular domain name or if you want to find out the domain name of a particular IP address the host command becomes handy. You can also find more specific details of a domain by specifying the corresponding option along with the domain name.
+ Host command in Linux system is used for DNS (Domain Name System) lookup operations.This command is used to find the IP address of a particular domain name or if you want to find out the domain name of a particular IP address the host command becomes handy. You can also find more specific details of a domain by specifying the corresponding option along with the domain name.
 ---
 
 ## Syntax

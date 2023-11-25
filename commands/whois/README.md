@@ -1,11 +1,12 @@
-# whois
-Identifies a user by user ID or alias.
+# command
+whois
 
 
 ---
 
 
 ## Description
+Identifies a user by user ID or alias.
 Whois performs the registration record for the domain name or IP address that you specify.Whois is a command-line utility used in Linux systems to retrieve information about domain names, IP addresses, and network devices registered with the Internet Corporation for Assigned Names and Numbers (ICANN).
 
 ---

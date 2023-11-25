@@ -1,12 +1,12 @@
-# tar
+# command
+tar
 
-The Linux ‘tar’ stands for tape archive
 
 ---
 
 
 ## Description
-It is used to create Archive and extract the Archive files. tar command in Linux is one of the important command which provides archiving functionality in Linux. We can use Linux tar command to create compressed or uncompressed Archive files and also maintain and modify them.
+The Linux ‘tar’ stands for tape archive.It is used to create Archive and extract the Archive files. tar command in Linux is one of the important command which provides archiving functionality in Linux. We can use Linux tar command to create compressed or uncompressed Archive files and also maintain and modify them.
 ---
 
 ## Syntax
