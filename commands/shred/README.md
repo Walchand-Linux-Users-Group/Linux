@@ -1,5 +1,6 @@
-# shred
-shred - overwrite a file to hide its contents, and optionally delete it
+# Command
+
+shred
 
 ---
 
