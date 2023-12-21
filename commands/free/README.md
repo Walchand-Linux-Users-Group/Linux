@@ -1,5 +1,7 @@
-# free
-free - Display amount of free and used memory in the system
+# Command
+
+free
+
 
 ---
 
