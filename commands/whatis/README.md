@@ -1,6 +1,6 @@
-# whatis
+# Command
 
-whatis - search the whatis database for complete words.
+whatis
 
 ---
 
