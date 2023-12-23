@@ -5,10 +5,7 @@ free
 ---
 
 ## Description
-free displays the total amount of free and used physical and swap
-       memory in the system, as well as the buffers and caches used by
-       the kernel. The information is gathered by parsing /proc/meminfo.
-       The displayed columns are:
+`free` displays the total amount of free and used physical and swap memory in the system, as well as the buffers and caches used by the kernel. The information is gathered by parsing __*/proc/meminfo*__. The displayed columns are:
 
        total  Total usable memory (MemTotal and SwapTotal in
               /proc/meminfo). This includes the physical and swap memory
@@ -68,11 +65,14 @@ $ free [options]
 ---
 
 ## Reporting Bugs
+
 Send bug reports to <albert@users.sf.net>
+
 ---
 
 ## Author
 
 - Brian Edmonds
+
 ---
 
