@@ -7,23 +7,23 @@ other key statistics.
 # Syntax 
 top 
 # Options/Flags 
-• Specifies the delay between updates. 
+# • Specifies the delay between updates. 
 $ top -d <delay> 
-• Limits the number of iterations or updates before exiting. 
+# • Limits the number of iterations or updates before exiting. 
 $ top -n <iterations> 
-• capture output for scripts or further processing 
+# • capture output for scripts or further processing 
 $ top -b 
-• Shows the full command path for processes. 
+# • Shows the full command path for processes. 
 $ top -c 
-•  Ignores case when sorting by command name 
+# •  Ignores case when sorting by command name 
 $ top -i 
-• Limits display to processes owned by a specific user. 
+# • Limits display to processes owned by a specific user. 
 $ top -u <username> 
-• Displays information only for the specified process ID. 
+# • Displays information only for the specified process ID. 
 $ top -p <process_id> 
-• skipping summary information at the top of the display. 
+# • skipping summary information at the top of the display. 
 $ top -q 
-• Displays a help message with information about available options. 
+# • Displays a help message with information about available options. 
 $ top -h
 # Author
 • Roger Binns 
