@@ -26,4 +26,4 @@ top
    ### • Displays a help message with information about available options. 
      $ top -h
 ## Author
-    • Roger Binns 
+    • Roger Binns.
